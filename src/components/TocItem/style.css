@@ -1,0 +1,246 @@
+.TOC-item {
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+}
+
+.TOC-item .line {
+  align-self: stretch;
+  position: relative;
+  width: 5px;
+}
+
+.TOC-item .container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.TOC-item .icon-sizes-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 2px 4px 2px 0px;
+  position: relative;
+}
+
+.TOC-item .class {
+  flex: 0 0 auto !important;
+  transform: rotate(-180deg) !important;
+}
+
+.TOC-item .class-2 {
+  flex: 0 0 auto !important;
+  transform: rotate(90deg) !important;
+}
+
+.TOC-item .icon-and-title {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 6px;
+  padding: 0px 0px 0px 4px;
+  position: relative;
+}
+
+.TOC-item .icon-sizes-instance {
+  flex: 0 0 auto !important;
+}
+
+.TOC-item .instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.TOC-item .text-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  display: -webkit-box;
+  flex: 1;
+  font-family: var(--body-2-font-family);
+  font-size: var(--body-2-font-size);
+  font-style: var(--body-2-font-style);
+  font-weight: var(--body-2-font-weight);
+  letter-spacing: var(--body-2-letter-spacing);
+  line-height: var(--body-2-line-height);
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.TOC-item .right-icons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 2px 4px 2px 0px;
+  position: relative;
+}
+
+.TOC-item .instance-node-2 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.TOC-item .expand-less-filled {
+  height: 16px !important;
+  position: relative !important;
+  transform: rotate(180deg) !important;
+  width: 16px !important;
+}
+
+.TOC-item.one {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.hover {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.document {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.l-c-doc {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.focused {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.folder {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.two.selected {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.four.selected {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.three.default {
+  display: flex;
+  width: 232px;
+}
+
+.TOC-item.two.default.heading {
+  display: inline-flex;
+}
+
+.TOC-item.four.default.heading {
+  display: inline-flex;
+}
+
+.TOC-item.three.heading.selected {
+  display: inline-flex;
+}
+
+.TOC-item .state-0-selected {
+  align-items: flex-start;
+}
+
+.TOC-item .open {
+  align-items: flex-start;
+}
+
+.TOC-item .type-heading {
+  align-items: flex-start;
+}
+
+.TOC-item .state-0-hover {
+  align-items: flex-start;
+}
+
+.TOC-item .level-0-two {
+  align-items: flex-start;
+}
+
+.TOC-item .type-document {
+  align-items: flex-start;
+}
+
+.TOC-item .level-0-four {
+  align-items: flex-start;
+}
+
+.TOC-item .level-0-three {
+  align-items: flex-start;
+}
+
+.TOC-item .type-l-c-doc {
+  align-items: flex-start;
+}
+
+.TOC-item .state-0-focused {
+  align-items: flex-start;
+}
+
+.TOC-item .level-0-one.closed.state-0-default.type-folder {
+  align-items: center;
+}
+
+.TOC-item.selected .container {
+  background-color: var(--primarymain);
+}
+
+.TOC-item.one .container {
+  padding: 5px 0px;
+}
+
+.TOC-item.hover .container {
+  background-color: #3f3d6b0a;
+}
+
+.TOC-item.default .container {
+  background-color: var(--surfacewhite);
+}
+
+.TOC-item.two .container {
+  padding: 5px 0px 5px 17px;
+}
+
+.TOC-item.four .container {
+  padding: 5px 0px 5px 51px;
+}
+
+.TOC-item.three .container {
+  padding: 5px 0px 5px 34px;
+}
+
+.TOC-item.focused .container {
+  background-color: #3f3d6b14;
+}
+
+.TOC-item.selected .text-wrapper {
+  color: var(--surfacewhite);
+}
+
+.TOC-item.focused .text-wrapper {
+  color: var(--textprimary);
+}
+
+.TOC-item.default .text-wrapper {
+  color: var(--textprimary);
+}
+
+.TOC-item.hover .text-wrapper {
+  color: var(--textprimary);
+}

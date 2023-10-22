@@ -1,0 +1,12 @@
+.icon-sizes {
+    align-items: flex-start;
+    display: inline-flex;
+    position: relative;
+  }
+  
+  .icon-sizes .star-filled {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+  }
+  

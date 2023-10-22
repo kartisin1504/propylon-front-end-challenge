@@ -1,0 +1,134 @@
+.frame {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 24px;
+    padding: 1px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    margin-bottom: -23px;
+    position: relative;
+  }
+  
+  .frame .div {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--surface-300);
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+  }
+  
+  .frame .TOC-item-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .frame .design-component-instance-node {
+    width: 1px !important;
+  }
+  
+  .frame .expandlessfilled-101 {
+    height: 16px !important;
+    position: relative !important;
+    transform: rotate(180deg) !important;
+    width: 16px !important;
+  }
+  
+  .frame .expandlessfilled-102 {
+    height: 16px !important;
+    position: relative !important;
+    transform: rotate(-90deg) !important;
+    width: 16px !important;
+  }
+  
+  .frame .TOC-item-2 {
+    flex: unset !important;
+    flex-grow: unset !important;
+    width: 227px !important;
+  }
+  
+  .frame .TOC-item-3 {
+    opacity: 0 !important;
+  }
+  
+  .frame .div-2 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--surface-300);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    height: 100vh;
+    margin-bottom: -24px;
+    margin-right: -1px;
+    margin-top: -1px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .frame .typography {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .typography-2 {
+    color: var(--textprimary);
+    font-family: var(--h-3-font-family);
+    font-size: var(--h-3-font-size);
+    font-style: var(--h-3-font-style);
+    font-weight: var(--h-3-font-weight);
+    letter-spacing: var(--h-3-letter-spacing);
+    line-height: var(--h-3-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .frame .typography-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--surface-100);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .p {
+    align-self: stretch;
+    color: var(--textprimary);
+    font-family: var(--body-1-font-family);
+    font-size: var(--body-1-font-size);
+    font-style: var(--body-1-font-style);
+    font-weight: var(--body-1-font-weight);
+    letter-spacing: var(--body-1-letter-spacing);
+    line-height: var(--body-1-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
