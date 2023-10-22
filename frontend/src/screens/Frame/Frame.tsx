@@ -1,7 +1,4 @@
 import React, { useCallback, useEffect, useState } from "react";
-
-
-
 import "./style.css";
 import useContents from "../../hooks/useContents";
 import ExpandlessfilledLevel1 from "../../icons/ExpandlessfilledLevel1/ExpandlessfilledLevel1";
@@ -47,7 +44,7 @@ const Frame: React.FC = () => {
         <div data-testid="frame" className="frame">
             <div className="frame-wrapper">
                 <div className="div">
-                    {filteredResults.map((node,index) => {
+                    {filteredResults.map((node, index) => {
                         const IconComponent = node.level === 1 ? <ExpandlessfilledLevel1 className="expandlessfilled-101" color="black" opacity="0.6" /> : <ExpandlessfilledLevel2 className="expandlessfilled-102" />;
                         return (
                             <TocItem
@@ -60,12 +57,12 @@ const Frame: React.FC = () => {
                                 lineClassName="design-component-instance-node"
                                 state={node.id === selectId ? 'selected' : 'default'}
                                 text={node.name}
-                                toggleState={node.parent_id !== ''?'closed':'open'}
+                                toggleState={node.parent_id !== '' ? 'closed' : 'open'}
                                 type="heading"
                                 onSelectChapter={updateChapter}
                                 chevronClassName=""
                                 containerClassName=""
-                                
+
                             />
                         );
                     })}
