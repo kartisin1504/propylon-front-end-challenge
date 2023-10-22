@@ -35,9 +35,9 @@ jest.mock("../api/FetchData", () => ({
 
 describe("useContents custom hook", () => {
   it("should fetch content data and provide results", async () => {
-    const { result, waitForNextUpdate } = renderHook(() => useContents());
+    const { result,  } = renderHook(() => useContents());
 
-    await waitForNextUpdate();
+    
 
     expect(result.current.isLoading).toBe(false);
     expect(result.current.isError).toBe(false);
@@ -54,9 +54,9 @@ describe("useContents custom hook", () => {
       getContent: jest.fn(() => Promise.reject(new Error(errorMessage))),
     }));
 
-    const { result, waitForNextUpdate } = renderHook(() => useContents());
+    const { result } = renderHook(() => useContents());
 
-    await waitForNextUpdate();
+    
 
     expect(result.current.isLoading).toBe(false);
     expect(result.current.isError).toBe(true);
