@@ -7,7 +7,7 @@ jest.mock('../../hooks/useContents', () => ({
   __esModule: true,
   default: () => ({
     results: [
-      // Mock your data here, e.g.:
+      
       {
         id: '1',
         name: 'Item 1',
@@ -15,7 +15,7 @@ jest.mock('../../hooks/useContents', () => ({
         parent_id: '',
         content: 'Content 1',
       },
-      // Add more items as needed
+      
     ],
   }),
 }));
