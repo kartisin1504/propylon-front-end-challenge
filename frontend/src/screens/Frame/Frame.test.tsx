@@ -2,7 +2,7 @@
 import { render, screen } from '@testing-library/react';
 import Frame from './Frame';
 
-// Mock the useContents hook to provide data for testing
+
 jest.mock('../../hooks/useContents', () => ({
   __esModule: true,
   default: () => ({
